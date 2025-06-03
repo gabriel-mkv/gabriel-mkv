@@ -23,4 +23,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-gabriel-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gabrielmkv)
 [![GitHub](https://img.shields.io/badge/GitHub-gabriel--mkv-181717?style=for-the-badge&logo=github)](https://github.com/gabriel-mkv)
 
-![Snake animation](https://github.com/gabriel-mkv/gabriel-mkv/blob/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabriel-mkv/gabriel-mkv/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabriel-mkv/gabriel-mkv/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/gabriel-mkv/gabriel-mkv/output/github-contribution-grid-snake.svg">
+</picture>
