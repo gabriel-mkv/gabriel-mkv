@@ -41,19 +41,12 @@ jobs:
           plugin_languages_details: lines
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
-          plugin_languages_ignored: scss, css, html, qml, perl, lua, ruby, dockerfile, markdown, mdx
-
-          plugin_achievements: yes
-          plugin_achievements_threshold: B
-          plugin_achievements_secrets: no
-          plugin_achievements_display: compact
-          plugin_achievements_limit: 6
+          plugin_languages_ignored: scss, css, html, qml, perl, lua, ruby, dockerfile, markdown, mdx, vim script
 
       # ─── SVG 2: Atividade recente ────────────────────────────────────────────
       - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          config_padding: 6, 10%
           user: gabriel-mkv
           template: classic
           filename: metrics.activity.svg
@@ -68,3 +61,25 @@ jobs:
           repositories_affiliations: owner, collaborator
           commits_authoring: gabriel-mkv, gabrielhsmendonca@gmail.com, gabrielmkv.dev@gmail.com
           plugins_errors_fatal: false
+
+          # ─── SVG 3: Linhas de código detalhado ───────────────────────────────────
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: gabriel-mkv
+          template: classic
+          filename: metrics.code.svg
+ 
+          config_display: large
+          config_timezone: America/Sao_Paulo
+          config_animations: yes
+ 
+          base: ""
+          base_indepth: yes
+          repositories: 60
+          repositories_affiliations: owner, collaborator
+          commits_authoring: gabriel-mkv, gabrielhsmendonca@gmail.com, gabrielmkv.dev@gmail.com
+          plugins_errors_fatal: false
+ 
+          plugin_lines: yes
+          plugin_lines_history_limit: 3
