@@ -1,30 +1,58 @@
-## Prazer em te conhecer! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" alt="wave"></h2>
+# gabriel-mkv / README.md
 
-<img align='right'  src="https://github-readme-stats.vercel.app/api?username=gabriel-mkv&show_icons=true&theme=tokyonight" alt="Status Github">
-<img width="160px" src="https://img.shields.io/static/v1?label=Overview&message=Gabriel&color=f8efd4&style=for-the-badge&logo=GitHub" alt="Static GitHub">
+<div align="center">
 
-<p align="justify">Sou o Gabriel, um <strong>Desenvolvedor Backend</strong> apaixonado por criar soluções eficientes e criativas. Desde cedo, respiro tecnologia e estou sempre em busca de aprender e aprimorar minhas habilidades. Atualmente, foco em desenvolvimento com <strong>Java</strong> e ecossistema relacionado.</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=435&lines=Backend+Developer;Java+%26+Spring+Boot;JOIN+me+on+the+dark+side;It's+not+a+bug,+it's+undocumented+behavior" alt="Typing SVG" width="600"/>
+
 </div>
 
-### 🛠️ Tecnologias Principais
+<img src="readme-panel.svg" alt="About me">
 
-<div>
-  <a href="https://docs.oracle.com/en/java/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java"/></a>
-  <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40" alt="Springboot"/></a>
-  <a href="https://maven.apache.org/docs/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" width="40" height="40" alt="Maven"/></a>
-  <a href="https://www.postgresql.org/docs/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL"/></a>
-  <a href="https://www.mongodb.com/docs/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="MongoDB"/></a>
-  <a href="https://docs.docker.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" alt="Docker"/></a>
-  <a href="https://www.kernel.org/doc/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux"/></a>
-  <a href="https://git-scm.com/doc" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git"/></a>
+```bash
+$ cat metrics.base.svg
+```
+
+<div align="center">
+  <img src="metrics.base.svg" alt="Metrics" width="90%">
 </div>
 
-### 🤝 Fale comigo
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-gabriel-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gabrielmkv)
-[![GitHub](https://img.shields.io/badge/GitHub-gabriel--mkv-181717?style=for-the-badge&logo=github)](https://github.com/gabriel-mkv)
+```bash
+$ git log --contributions
+```
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabriel-mkv/gabriel-mkv/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabriel-mkv/gabriel-mkv/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/gabriel-mkv/gabriel-mkv/output/github-contribution-grid-snake.svg">
+  <img alt="Snake" src="https://raw.githubusercontent.com/gabriel-mkv/gabriel-mkv/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
+
+&nbsp;
+
+```
+$ ls -la contact/
+```
+&nbsp;
+
+<table align="center">
+  <tr>
+    <th>PERMISSIONS</th>
+    <th>PLATFORM</th>
+    <th>USERNAME</th>
+    <th>STATUS</th>
+    <th>LINK</th>
+  </tr>
+  <tr>
+    <td><code>-rw-r--r--</code></td>
+    <td>LinkedIn</td>
+    <td>gabrielmkv</td>
+    <td>🟢 online</td>
+    <td><a href="https://www.linkedin.com/in/gabrielmkv"><img src="https://img.shields.io/badge/LinkedIn-gabrielmkv-0A66C2?style=for-the-badge&logo=Linkedin&logoColor=white"/></a></td>
+  </tr>
+  <tr>
+    <td><code>-rw-r--r--</code></td>
+    <td>GitHub</td>
+    <td>gabriel-mkv</td>
+    <td>🟢 online</td>
+    <td><a href="https://github.com/gabriel-mkv"><img src="https://img.shields.io/badge/GitHub-gabriel--mkv-181717?style=for-the-badge&logo=github&logoColor=white"/></a></td>
+  </tr>
+</table>
