@@ -1,0 +1,69 @@
+<svg width="100%" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cmd   { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; fill: #39D353; }
+      .body  { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 12px; fill: #e6edf3; }
+      .muted { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #8b949e; }
+      .key   { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 12px; fill: #39D353; }
+      .val   { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 12px; fill: #cdd9e5; }
+      .dim   { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #6e7681; }
+      .bold-body { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 12px; fill: #e6edf3; font-weight: 600; }
+      .user  { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #39D353; }
+      .path  { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #58a6ff; }
+    </style>
+  </defs>
+
+  <!-- Left panel background -->
+  <rect x="20" y="20" width="290" height="280" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <!-- Left panel header bar -->
+  <rect x="20" y="20" width="290" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="0.5"/>
+  <rect x="20" y="36" width="290" height="12" fill="#0d1117"/>
+  <text x="36" y="39"><tspan class="user">gabriel-mkv@manjaro</tspan><tspan class="muted">:</tspan><tspan class="path">~/whoami.txt</tspan></text>
+
+  <!-- Left panel content -->
+  <text x="36" y="72" class="cmd">$ cat whoami.txt</text>
+  <line x1="36" y1="82" x2="294" y2="82" stroke="#30363d" stroke-width="0.5"/>
+  <text x="36" y="104" class="body">Desenvolvedor Backend</text>
+  <text x="36" y="122" class="body">focado em <tspan class="bold-body">Java</tspan> e</text>
+  <text x="36" y="140" class="bold-body">Spring Boot.</text>
+  <line x1="36" y1="154" x2="294" y2="154" stroke="#30363d" stroke-width="0.3" stroke-dasharray="3 3"/>
+  <text x="36" y="174" class="body">Construo APIs resilientes</text>
+  <text x="36" y="192" class="body">e escaláveis.</text>
+  <line x1="36" y1="206" x2="294" y2="206" stroke="#30363d" stroke-width="0.3" stroke-dasharray="3 3"/>
+  <text x="36" y="226" class="body">Se o código não é limpo,</text>
+  <text x="36" y="244" class="body">o trabalho não acabou.</text>
+
+  <!-- Left panel statusline -->
+  <rect x="20" y="264" width="290" height="8" fill="#1c2128"/>
+  <rect x="20" y="272" width="290" height="28" rx="0" fill="#1c2128"/>
+  <rect x="20" y="292" width="290" height="8" rx="6" fill="#1c2128"/>
+  <text x="36" y="291" class="dim">txt · UTF-8</text>
+  <text x="296" y="291" text-anchor="end" class="dim">100%</text>
+
+  <!-- Right panel background -->
+  <rect x="326" y="20" width="334" height="280" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <!-- Right panel header bar -->
+  <rect x="326" y="20" width="334" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="0.5"/>
+  <rect x="326" y="36" width="334" height="12" fill="#0d1117"/>
+  <text x="342" y="39"><tspan class="user">gabriel-mkv@manjaro</tspan><tspan class="muted">:</tspan><tspan class="path">~/stack.yaml</tspan></text>
+  <text x="636" y="39" text-anchor="end" class="muted">[RO]</text>
+
+  <!-- Right panel content -->
+  <text x="342" y="72" class="cmd">$ cat stack.yaml</text>
+  <line x1="342" y1="82" x2="644" y2="82" stroke="#30363d" stroke-width="0.5"/>
+
+  <text x="342" y="104" class="dim"># ─────────────────────────────────</text>
+  <text x="342" y="122" class="key">lang:        </text><text x="432" y="122" class="val">Java</text>
+  <text x="342" y="140" class="key">framework:   </text><text x="432" y="140" class="val">Spring Boot · Security · JPA</text>
+  <text x="342" y="158" class="key">database:    </text><text x="432" y="158" class="val">PostgreSQL · MongoDB</text>
+  <text x="342" y="176" class="key">infra:       </text><text x="432" y="176" class="val">Docker · Linux</text>
+  <text x="342" y="194" class="key">tools:       </text><text x="432" y="194" class="val">Maven · Git</text>
+  <text x="342" y="212" class="dim"># ─────────────────────────────────</text>
+
+  <!-- Right panel statusline -->
+  <rect x="326" y="264" width="334" height="8" fill="#1c2128"/>
+  <rect x="326" y="272" width="334" height="28" rx="0" fill="#1c2128"/>
+  <rect x="326" y="292" width="334" height="8" rx="6" fill="#1c2128"/>
+  <text x="342" y="291" class="dim">1:1 · yaml · UTF-8</text>
+  <text x="648" y="291" text-anchor="end" class="dim">100%</text>
+</svg>
