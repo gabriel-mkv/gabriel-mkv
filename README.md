@@ -1,8 +1,7 @@
-# gabriel-mkv / README.md
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=435&lines=Backend+Developer;Java+%26+Spring+Boot;JOIN+me+on+the+dark+side;It's+not+a+bug,+it's+undocumented+behavior" alt="Typing SVG" width="600"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=39D353&center=true&vCenter=true&width=435&lines=Backend+Developer;Java+%26+Spring+Boot;JOIN+me+on+the+dark+side;It's+not+a+bug,+it's+undocumented+behavior" alt="Typing SVG" width="700"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:39D353,100:006aff&height=70"/>
 
 </div>
 
