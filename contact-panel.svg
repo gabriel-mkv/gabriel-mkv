@@ -1,0 +1,68 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 190">
+  <defs>
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Fira Code", monospace;
+      }
+      .user { fill: #9ECE6A; }
+      .path { fill: #7AA2F7; }
+      .muted { fill: #9AA5CE; }
+      .cmd { fill: #9ECE6A; font-size: 13px; }
+      .label { fill: #C0CAF5; font-size: 12px; }
+      .accent { fill: #BB9AF7; }
+      .value { fill: #7DCFFF; font-size: 12px; }
+      .small { fill: #7982A9; font-size: 10px; }
+    </style>
+  </defs>
+
+  <!-- Terminal window -->
+  <rect x="20" y="10" width="640" height="170" rx="6"
+        fill="#1A1B26" stroke="#292E42" stroke-width="1"/>
+
+  <!-- Header -->
+  <path d="M26 10 H654 Q660 10 660 16 V38 H20 V16 Q20 10 26 10"
+        fill="#16161E" stroke="#292E42" stroke-width="0.5"/>
+
+  <circle cx="36" cy="24" r="3" fill="#F7768E"/>
+  <circle cx="48" cy="24" r="3" fill="#E0AF68"/>
+  <circle cx="60" cy="24" r="3" fill="#9ECE6A"/>
+
+  <text x="76" y="28" class="mono" font-size="11">
+    <tspan class="user">gabriel-mkv@manjaro</tspan><tspan class="muted">:</tspan><tspan class="path">~/contact</tspan>
+  </text>
+  <text x="644" y="28" text-anchor="end" class="mono muted" font-size="10">[RO]</text>
+
+  <!-- Command -->
+  <text x="36" y="62" class="mono cmd">$ ./connect.sh</text>
+  <line x1="36" y1="73" x2="644" y2="73" stroke="#292E42" stroke-width="0.8"/>
+
+  <text x="36" y="94" class="mono label">Escolha onde me encontrar:</text>
+
+  <!-- LinkedIn card -->
+  <a href="https://www.linkedin.com/in/gabrielmkv"
+     target="_blank" rel="noopener noreferrer">
+    <rect x="36" y="108" width="292" height="43" rx="5"
+          fill="#24283B" stroke="#0A66C2" stroke-width="1"/>
+    <text x="50" y="126" class="mono accent" font-size="11">01</text>
+    <text x="76" y="126" class="mono value">LinkedIn</text>
+    <text x="76" y="141" class="mono small">linkedin.com/in/gabrielmkv</text>
+    <text x="310" y="134" class="mono value" text-anchor="end">↗</text>
+  </a>
+
+  <!-- GitHub card -->
+  <a href="https://github.com/gabriel-mkv"
+     target="_blank" rel="noopener noreferrer">
+    <rect x="352" y="108" width="292" height="43" rx="5"
+          fill="#24283B" stroke="#BB9AF7" stroke-width="1"/>
+    <text x="366" y="126" class="mono accent" font-size="11">02</text>
+    <text x="392" y="126" class="mono value">GitHub</text>
+    <text x="392" y="141" class="mono small">github.com/gabriel-mkv</text>
+    <text x="626" y="134" class="mono value" text-anchor="end">↗</text>
+  </a>
+
+  <!-- Footer -->
+  <line x1="36" y1="163" x2="644" y2="163" stroke="#292E42" stroke-width="0.8"/>
+  <text x="36" y="174" class="mono small">2 platforms · Links available</text>
+  <text x="644" y="174" text-anchor="end" class="mono small">exit 0</text>
+</svg>
